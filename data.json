@@ -1,0 +1,133 @@
+[
+  {
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+      "creator": 1,
+      "content": "this is a comment",
+      "content_type": 7,
+      "object_id": 1,
+      "created_at": "2022-07-21T10:03:24.607Z",
+      "modified_at": "2022-07-21T10:03:24.607Z"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+      "value": "tag1"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+      "value": "tag2"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-06-13T18:55:59.444Z",
+      "modified_at": "2022-06-13T18:55:59.444Z",
+      "published_at": "2022-06-13T18:55:13Z",
+      "title": "test 1",
+      "slug": "test-1",
+      "summary": "this is first post",
+      "content": "lorem ipsum first post.",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-07-13T13:23:28.427Z",
+      "modified_at": "2022-07-13T13:23:28.427Z",
+      "published_at": "2022-07-13T13:22:31Z",
+      "title": "Test post 2",
+      "slug": "test-post-2",
+      "summary": "This is a test post number 2",
+      "content": "lorem ipsum test 2 lorem ipsum test 2 lorem ipsum test 2 lorem ipsum test 2 lorem ipsum test 2 lorem ipsum test 2",
+      "tags": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "author": 2,
+      "created_at": "2022-07-13T13:24:13.820Z",
+      "modified_at": "2022-07-13T13:24:13.820Z",
+      "published_at": "2022-07-13T13:23:48Z",
+      "title": "Test post by nav",
+      "slug": "test-post-by-nav",
+      "summary": "Nav test post",
+      "content": "lorem ipsum test nav lorem ipsum test nav lorem ipsum test nav lorem ipsum test nav lorem ipsum test nav",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$SJlx5budlONVmASndak86O$eN+PBPlD+MYP4Zfhx1QwsfuE6pe45KGFswljVyiHYwA=",
+      "last_login": "2022-07-21T10:02:53.828Z",
+      "is_superuser": true,
+      "username": "codio",
+      "first_name": "",
+      "last_name": "",
+      "email": "ndhedhi@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-06-13T18:45:14.963Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$bbXpedzTJB53GOKVpJcg5g$5+3Ksub4KU89Nm0gyPxY6Pn4BKm5tBkeozkAfMa6tcs=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "nav",
+      "first_name": "Naveera",
+      "last_name": "Ashraf",
+      "email": "info@creativemelon.co.za",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-07-13T13:21:58Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blango_auth.User",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$j2IaMUlRL3791BzUAkMKVn$1tVh65ZHu9hR4Cr+VHqnVt3ylH64G2o+9BMA4FZcg2k=",
+      "last_login": "2022-08-22T11:39:11.771Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@example.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-08-22T11:38:45.283Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
